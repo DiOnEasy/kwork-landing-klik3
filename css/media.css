@@ -1,0 +1,196 @@
+@media (max-width: 1440px) {
+    .header__navbar {
+
+        max-width: 90%;
+    }
+
+
+}
+
+@media (max-width: 1280px) {
+    .partner__sheets-item {
+        width: 80%;
+    }
+
+    .partner__sheets-item img {
+        width: 80%;
+    }
+
+    .faq__content {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .partner__sheets {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header__button {
+        margin-left: 25px;
+    }
+
+    .header__navbar {
+        justify-content: center;
+    }
+
+    video {
+        /* -webkit-transform: scaleX(1.5); */
+        -webkit-transform: scaleY(1.7);
+    }
+
+    .about__header br {
+        display: none;
+    }
+
+    .partner {
+        max-width: 90%;
+    }
+
+    .partner__sheets {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .partner__sheets-item {
+        margin-bottom: 30px;
+        padding: 50px 10px 30px;
+    }
+
+    .faq__content {
+        grid-template-columns: 1fr;
+    }
+
+    .faq {
+        margin-bottom: 75px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer__socials {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__navbar {
+        flex-flow: row wrap;
+    }
+
+    video {
+        -webkit-transform: scaleY(3);
+    }
+
+    .about {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about__button{
+        padding: 10px;
+    }
+    .about__button a{
+        font-size: 16px;
+    }
+
+    .network__statistic {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .network__statistic-item {
+        margin-bottom: 20px;
+
+    }
+
+    .help {
+        max-width: 90%;
+    }
+
+    .help__content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer__navbar {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .footer__navbar a {
+        margin-bottom: 10px;
+    }
+
+    .network__statistic-item {
+        padding: 30px 50px 10px;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .network__statistic-item{
+        width: 50%;
+    }
+    video {
+        -webkit-transform: scaleY(5);
+    }
+    .header__navbar{
+        display: block;
+    }
+    .header__links{
+        text-align: center;
+    }
+    .header__button{
+        max-width: 120px;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .about__button {
+        display: block;
+        width: 60%;
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+
+    .partner__sheets {
+        grid-template-columns: 1fr;
+    }
+
+    .header__content p {
+        font-size: 18px;
+    }
+
+    .about__text {
+        font-size: 17.5px;
+    }
+
+    .network__header,
+    .partner__header,
+    .help__header,
+    .faq__header {
+        font-size: 21px;
+    }
+
+    .network__desc,
+    .help__desc,
+    .faq__desc,
+    .partner__desc {
+        font-size: 17px;
+    }
+
+
+}
+
+@media (max-width: 375px) {
+.header__links a{
+    font-size: 14px;
+}
+video {
+    -webkit-transform: scaleY(6);
+}
+}
